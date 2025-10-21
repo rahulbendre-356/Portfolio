@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Bendre - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="circuit-loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <p class="loading-text">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">RB</div>
+            <ul>
+                <li><a href="#" data-page="home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" data-page="about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#" data-page="projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#" data-page="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="hero-section">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge">👋 Welcome to my portfolio</div>
+                <h1>Hi, I'm <span class="gradient-text">Rahul Bendre</span></h1>
+                <p class="hero-subtitle">
+                    <span id="typed-text"></span>
+                    <span class="cursor-blink">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" data-page="projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#" data-page="contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Get in Touch
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">GPA</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000">
+                <div class="floating-card card-1">💻</div>
+                <div class="floating-card card-2">🎨</div>
+                <div class="floating-card card-3">🚀</div>
+                <div class="floating-card card-4">⚡</div>
+                <div class="gradient-blob blob-1"></div>
+                <div class="gradient-blob blob-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p class="lead">I'm a passionate Electronics Engineer who loves turning ideas into reality through innovative circuit design and embedded systems.</p>
+                    <p>With a strong foundation in both hardware design and firmware development, I specialize in creating intelligent electronic solutions that bridge the gap between the physical and digital worlds.</p>
+                    <p>When I'm not designing circuits or programming microcontrollers, you'll find me exploring emerging technologies in IoT, robotics, and renewable energy systems.</p>
+                </div>
+                
+                <div class="skills-section" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="100">
+                            <div class="skill-icon">🔌</div>
+                            <div class="skill-name">Circuit Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="200">
+                            <div class="skill-icon">🤖</div>
+                            <div class="skill-name">Embedded Systems</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="300">
+                            <div class="skill-icon">📡</div>
+                            <div class="skill-name">IoT & Wireless</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="400">
+                            <div class="skill-icon">⚙️</div>
+                            <div class="skill-name">PCB Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="500">
+                            <div class="skill-icon">💻</div>
+                            <div class="skill-name">C/C++ & Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="flip-left" data-aos-delay="600">
+                            <div class="skill-icon">🔋</div>
+                            <div class="skill-name">Power Electronics</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Page -->
+    <div id="projects" class="page">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">My work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and side projects</p>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="embedded">Embedded</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="power">Power Electronics</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured" data-category="embedded" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="project-emoji">🤖</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured</span>
+                        <h3>RV32I Core Design using RTL and Verilog</h3>
+                        <p>Designed an RV32I Core with RISC-V instruction set by integrating core components like ALU, Data/Instruction Memory, PC, Control Unit, etc. using Verilog in Vivado as IDE.</p>
+                        <div class="project-tags">
+                            <span class="tag">RV32I</span>
+                            <span class="tag">Subset Implementation</span>
+                            <span class="tag">RTL Design</span>
+                            <span class="tag">Verilog</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1-0td3oAth-bE9wufw3lDluxvK2r_qui0/view?usp=sharing" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="power" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="project-emoji">⚡</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Solar Powered Li-Ion Battery Charger</h3>
+                        <p>Solar Powered Voltage and Current energy converter to charge a 3.7V Li-Ion battery in approx 3 minutes. Built-in overcharge protection and battery percentage indication.</p>
+                        <div class="project-tags">
+                            <span class="tag">LM317</span>
+                            <span class="tag">Power Electronics</span>
+                            <span class="tag">Overcharge Protection</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1YVLf_dVEHS26F2t4KzIX_MrnlY_i3SuP/view?usp=sharing" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="iot" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="project-emoji">📡</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>ESP32 Based Sun-Tracking Solar Panel</h3>
+                        <p>An ESP32 based model designed to track sun's path to ensure maximum efficiency. Effective use of Servo Motor and LDR sensors to accurately rotate the Solar Panel.</p>
+                        <div class="project-tags">
+                            <span class="tag">ESP32</span>
+                            <span class="tag">Sun Tracker</span>
+                            <span class="tag">LDR Sensors</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1jQNvcSbTmgErrmP2QyOjkMkfpETWwvzz/view?usp=sharing" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="embedded iot" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span class="project-emoji">🔊</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>STM32 based Fungus Growth Prediction System</h3>
+                        <p>An Air Quality Monitoring and Fungus Growth risk prediction system using the STM32 microprocessor and DHT22, MQ135 sensors.</p>
+                        <div class="project-tags">
+                            <span class="tag">STM32</span>
+                            <span class="tag">Fungus Risk Prediction</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://docs.google.com/document/d/1Iq8eqZ_SDUA94ehBVe_dJtipyBFn1HYr/edit?usp=sharing&ouid=108236430425389034248&rtpof=true&sd=true" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="embedded" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span class="project-emoji">🚗</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Anti-lock Braking System on Simulink</h3>
+                        <p>Designed and Modelled an Anti-Lock Braking system on Simulink using PID Controller. Simulated wheel and vehicle dynamics with mu-slip LUT for accurate braking.</p>
+                        <div class="project-tags">
+                            <span class="tag">ABS Model</span>
+                            <span class="tag">PID Control</span>
+                            <span class="tag">Simulink</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1K445e0UF62aVuDL6HU9Yp549V5T_vlg0/view?usp=sharing" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Let's connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a project in mind or just want to chat? I'd love to hear from you!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>Drop me a line anytime</p>
+                        <a href="mailto:rajeshbendre71@gmail.com">rajeshbendre71@gmail.com</a>
+                    </div>
+
+                    <div class="contact-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <h3>LinkedIn</h3>
+                        <p>Let's connect professionally</p>
+                        <a href="https://www.linkedin.com/in/rahul-bendre-a3b0b6292" target="_blank">linkedin.com/in/rahul-bendre</a>
+                    </div>
+
+                    <div class="contact-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <p>Check out my code</p>
+                        <a href="https://github.com/rahulbendre-356" target="_blank">github.com/rahulbendre-356</a>
+                    </div>
+
+                    <div class="contact-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Phone</h3>
+                        <p>Give me a call</p>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-up" data-aos-delay="300">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment"></i> Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rahul Bendre. Built with ❤️ and lots of ☕</p>
+            <div class="social-links">
+                <a href="https://github.com/rahulbendre-356" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rahul-bendre-a3b0b6292" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:rajeshbendre71@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
